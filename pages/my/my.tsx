@@ -1,10 +1,11 @@
 import React from 'react';
+import { View, Text } from 'react-native';
 
 const My = () => {
   return (
-    <>
-      我的
-      </>
+    <View>
+      <Text>我的</Text>
+    </View>
   )
 }
 
