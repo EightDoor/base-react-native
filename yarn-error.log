@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/local/Cellar/python@3.9/3.9.1_4/libexec/bin:/Users/zhoukai/Desktop/cocos2d-x-4.0/templates:/Users/zhoukai/Desktop:/Users/zhoukai/Desktop/cocos2d-x-4.0/tools/cocos2d-console/bin:/Users/zhoukai/Desktop/cocos2d-x-4.0/templates:/Users/zhoukai/Desktop:/Users/zhoukai/Desktop/cocos2d-x-4.0/tools/cocos2d-console/bin:/Users/zhoukai/.local/bin/:/usr/bin/wc/bin:/opt/flutter/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/usr/local/Cellar/mongodb/4.0.3_1/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Android Studio.app/Contents/gradle/gradle-4.4/bin:/usr/local/share/android-sdk/tools:/usr/local/share/android-sdk/platform-tools:/Users/zhoukai/Library/Android/sdk/tools:/Users/zhoukai/Library/Android/sdk/platform-tools:/usr/local/Cellar/gradle/5.6.1/bin:/opt/maven/bin:/Users/zhoukai/project/go/bin$:/Users/zhoukai/Qt/5.15.1/clang_64/bin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: write EADDRNOTAVAIL
+      at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:87:16)
+      at handleWriteReq (internal/stream_base_commons.js:53:21)
+      at writeGeneric (internal/stream_base_commons.js:139:15)
+      at TLSSocket.Socket._writeGeneric (net.js:771:11)
+      at TLSSocket.Socket._write (net.js:783:8)
+      at doWrite (_stream_writable.js:431:12)
+      at clearBuffer (_stream_writable.js:551:7)
+      at TLSSocket.Writable.uncork (_stream_writable.js:325:7)
+      at ClientRequest._flushOutput (_http_outgoing.js:808:10)
+      at ClientRequest._flush (_http_outgoing.js:784:16)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-dom": "~16.9.8",
+      "@types/react-native": "~0.63.2",
+      "typescript": "~4.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
